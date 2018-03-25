@@ -1,0 +1,49 @@
+
+
+
+table {
+	width: 90%;
+	border: 5px solid #fff;
+	margin: 0 auto;
+}		
+table tr {
+	height: 35px;
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: center;
+		
+}
+
+table th {
+	text-align: left;
+	font-size: 25px;	
+}
+
+ tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+td:first-child {
+	font-weight: bold;
+	font-size: 25px;
+			
+}
+
+
+
+.icons {
+display:flex;
+justify-content: flex-end;
+padding-right: 30px;
+padding-top: 5px;
+
+}
+
+.flex-ic {
+	padding-left: 10px;
+}
+
+
+	

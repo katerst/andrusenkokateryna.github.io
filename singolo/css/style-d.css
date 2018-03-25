@@ -1,0 +1,63 @@
+.bgc-dark {
+  background-color: #2d303a;
+}
+.bgc-danger {
+  background-color: #f06c64;
+}
+.bgc-light {
+  background-color: #f2f2f2;
+}
+
+
+.site-header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+.site-footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+
+
+
+section[class*=section-] {
+  padding-top: 65px;
+  padding-bottom: 65px;
+
+}
+.section-carousel {
+
+}
+
+.section-services {
+
+}
+
+.section-portfolio {
+
+}
+
+.section-team {
+
+}
+.section-contact {
+
+}
+
+.section-contact .form-control {
+  background-color: #d6564f;
+  border-color: transparent;
+}
+
+.gallery-item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.gallery-item a {
+  display: block;
+}

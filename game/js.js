@@ -4,6 +4,7 @@ var basket=document.getElementById('basket');
 function changeCursor(){
   document.body.style.cursor = basket;
 }
+window.onload=function(){
 
 document.onmousemove=function(event){
 basket.style.position='fixed';
@@ -43,28 +44,51 @@ act=act+8;
 
      act= 0;
      }
-   
-     
-}
+   }
+
 
 var tr=setInterval(move, 100);
+
 document.getElementById('egg').onmouseenter=function(){
 this.style.display='none';
+localStorage.setItem("catch","pink");
+localStorage.setItem("point","1");
+if(localStorage.getItem('point')==1){
+document.getElementById('out').innerHTML='СЧЕТ: 1';
+out.style.fontSize='30px';
+out.style.color='#fff';	
 }
+}
+
+
+
 
 document.getElementById('egg1').onmouseenter=function(){
-egg1.style.display='none';
-
-
-
-}
-
-document.getElementById('egg2').onmouseenter=function(){
 this.style.display='none';
-
+localStorage.setItem("catch","blue");
+localStorage.setItem("point","1");
+if(localStorage.getItem('point')==1){
+document.getElementById('out').innerHTML='СЧЕТ: 2';
+out.style.fontSize='30px';
+out.style.color='#fff';
 
 }
+}
 
+
+
+document.getElementById('egg2').onmouseover=function(){
+this.style.display='none';
+localStorage.setItem("catch","orange");
+localStorage.setItem("point","3");
+
+console.log(localStorage.getItem('point'));
+if(localStorage.getItem('point')==3){
+document.getElementById('out').innerHTML='СЧЕТ: 5';
+out.style.fontSize='30px';
+out.style.color='#fff';
+}
+}
 
 document.getElementById('egg3').onmouseenter=function(){
 document.write ('Game Over');
@@ -72,9 +96,12 @@ document.body.style.color='#fff';
 document.body.style.background='url(https://avatanplus.com/files/resources/mid/57c584573c84b156db8cf4d0.jpg)';
 document.body.style.backgroundSize='cover';
 document.body.style.fontSize='50px';
-document.body.style.textAlign='center'
-
-
+document.body.style.textAlign='center';
+localStorage.setItem('catch','game over')
+localStorage.setItem('point','0')
+if(localStorage.getItem('point')==0){
+alert('Вы проиграли!')
+}
 }
 
 document.getElementById('egg4').onmouseenter=function(){
@@ -83,8 +110,13 @@ document.body.style.color='#fff';
 document.body.style.background='url(https://avatanplus.com/files/resources/mid/57c584573c84b156db8cf4d0.jpg)';
 document.body.style.backgroundSize='cover';
 document.body.style.fontSize='50px';
-document.body.style.textAlign='center'
+document.body.style.textAlign='center';
+localStorage.setItem('catch','game over')
+localStorage.setItem('point','0')
+if(localStorage.getItem('point')==0){
+alert('Вы проиграли!')
+
 }
 
-
-
+}
+}

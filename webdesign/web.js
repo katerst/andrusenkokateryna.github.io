@@ -20,6 +20,6 @@ $(document).ready(function(){
 
 if($(window).width()<420){
 	 $(".owl-carousel").owlCarousel({
-  	items:3
+  	items:2
   });
 }

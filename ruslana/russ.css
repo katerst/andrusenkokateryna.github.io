@@ -316,6 +316,12 @@ main {
 	font-size: 20px;
 }
 
+.about p:hover {
+color: red;
+}
+
+
+
 footer {
 	background: #380540;
 	text-align: center;
@@ -327,5 +333,9 @@ footer a {
 	color: #fff;
 	padding-top: 20px;
 	
+}
+
+.copy a{
+    margin-bottom:  50px;
 }
 

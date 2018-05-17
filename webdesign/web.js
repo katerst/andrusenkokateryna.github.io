@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', function () {
 $(function() {
 	$('.toggles button').click(function(){
 		var get_id=this.id;
@@ -20,6 +21,7 @@ $(document).ready(function(){
 
 if($(window).width()<420){
 	 $(".owl-carousel").owlCarousel({
-  	items:2
+  	items:3
   });
-}
+};
+});

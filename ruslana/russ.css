@@ -314,28 +314,56 @@ main {
 	grid-template-columns: auto auto auto;
 	font-family: sans-serif;
 	font-size: 20px;
+    color: #000;
+
 }
 
 .about p:hover {
 color: red;
+
 }
 
 
 
-footer {
+.footer-bottom {
+    padding-top: 30px;
 	background: #380540;
 	text-align: center;
 	height: 100px;
 }
 
-footer a {
+.footer-bottom a {
 	text-decoration: none;
 	color: #fff;
 	padding-top: 20px;
+    font-family: cursive;
+    font-size: 20px;
+
 	
 }
 
-.copy a{
-    margin-bottom:  50px;
+.footer-top {
+    background: #5e3068;
+    text-align: center;
+    padding-top: 40px;
+    color: #fff;
+    font-family: cursive;
+    font-size: 20px;
+
 }
+
+.social {
+    margin-right: 550px;
+    margin-left: 550px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.social img {
+    margin-right: 10px;
+}
+
+
+
+
 

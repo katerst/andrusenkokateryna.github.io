@@ -341,6 +341,14 @@ main {
     color: #fff;
   }
 
+  .modaln-footer  img {
+    padding-right: 15px;
+   padding-top: 10px;
+   
+  }
+
+   
+
   .modaln-body {
     background: #fff;
   }
@@ -359,6 +367,7 @@ main {
     background:rgb(0,100,250);
     border: none;
     cursor: pointer;
+    padding: 10px;
   }
 
   @keyframes modal {

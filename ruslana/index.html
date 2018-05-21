@@ -86,9 +86,10 @@
 </div>
 
 
-
+ <a href="#" class="top"><button>Наверх</button></a>
 
 <div class="gall" id="gallery">
+  <h2>Каталог</h2>
 	<div class="block-nic">
       <div class="nicolas">
        <div class="nic-text">
@@ -108,6 +109,7 @@
         <p class="nic-lorem">Lorem ipsum dolor sit<br> amet, consectetur adipisicing elit.<br> Neque, aliquam!</p>
        </div>
       </div>
+
       <div class="nicolas">
          <div class="nic-text">
         <p>August 19,2013</p>
@@ -184,7 +186,12 @@
     </div>
 
 <button class="buttoncl">Заказать</button>
-<form action="https://andrusenkokateryna.github.io/singolo/">
+<form action="">
+  <!-- Hidden Required Fields -->
+    <input type="hidden" name="project_name" value="bali_in_ua">
+    <input type="hidden" name="admin_email" value="0993262626g@gmail.com">
+    <input type="hidden" name="form_subject" value="Заявка от покупателя">
+    <!-- END Hidden Required Fields -->
   <div class="modaln">
     <div class="modaln-wrapper">
       <div class="modaln-header">
@@ -192,9 +199,9 @@
         <h3>Сделать заказ</h3>
       </div>
       <div class="modaln-body">
-        <input type="text" placeholder="Ваше имя"  class="inp-mod" required="true"/><br>
-        <input type="tel" placeholder="Ваш номер телефона" class="inp-mod" required="true"><br>
-        <input type="email" placeholder="Ваш E-mail" class="inp-mod" required="true"><br>
+        <input type="text" name="Name" placeholder="Ваше имя"  class="inp-mod" required="true" ><br>
+        <input type="tel" name="Phone" placeholder="Ваш номер телефона" class="inp-mod" required="true"><br>
+        <input type="email" name="E-mail" placeholder="Ваш E-mail" class="inp-mod" required="true"><br>
         <input type="number" class="inp-mod" placeholder="Артикул товара" required="true" min=1>
         <input type="submit" value="Отправить" class="agree">
       </div>
@@ -221,8 +228,8 @@
           	<a data-lightbox="gallery" href="img/102.png">
           		<img src="img/102.png" class="img-fluid" alt="" title="кликни, чтобы увеличить"></a></div>
           <div class="gallery-item col-12 text-center col-sm-6 col-lg-4 col-xl-3">
-          	<a data-lightbox="gallery" href="img/103.jpg">
-          		<img src="img/103.jpg" class="img-fluid" alt="" title="кликни, чтобы увеличить"></a></div>
+          	
+          		<img src="img/103.jpg" class="img-fluid" alt="" title="кликни, чтобы увеличить"></div>
           <div class="gallery-item col-12 text-center col-sm-6 col-lg-4 col-xl-3"><a data-lightbox="gallery" href="img/104.png"><img src="img/104.png" class="img-fluid" alt="" title="кликни, чтобы увеличить"></a></div>
           <div class="gallery-item col-12 text-center col-sm-6 col-lg-4 col-xl-3"><a data-lightbox="gallery" href="img/105.png"><img src="img/105.png" class="img-fluid" alt="" title="кликни, чтобы увеличить"></a></div>
           <div class="gallery-item col-12 text-center col-sm-6 col-lg-4 col-xl-3"><a data-lightbox="gallery" href="img/106.png"><img src="img/106.png" class="img-fluid" alt="" title="кликни, чтобы увеличить"></a></div>
@@ -267,9 +274,12 @@
     <div class="footer-bottom">
 		<a href="https://github.com/andrusenkokateryna">
 		&copy; Copyright 2018 by Andrusenko Kateryna
-	</a>
+	</a><br>
+ 
 	</div>
+
 	</footer>
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src='russ.js'></script>
 </body>
 </html>

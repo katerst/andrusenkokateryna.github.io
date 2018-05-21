@@ -4,6 +4,7 @@
 body {
 	margin: 0;
 	padding: 0;
+    position: absolute;
 }
 
 header {
@@ -384,6 +385,15 @@ main {
     }
 }
 
+.top {
+   position: fixed;
+   left: 10px;
+    color: red;
+    font-size: 25px;
+    font-family: cursive;
+
+}
+
 
 
 .gallery {
@@ -399,7 +409,7 @@ main {
 	padding-bottom: 40px;
 }
 
-.news h2 {
+.news, .gall h2 {
 	text-align: center;
 	font-size: 30px;
 	font-family: sans-serif;

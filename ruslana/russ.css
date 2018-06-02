@@ -35,26 +35,37 @@ header {
 
 
 }
+
+.logo {
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+}
+
 @media screen and (max-width: 1000px){
     .logo-block {
-    width: 110px;
-    height: 110px;
+    width: 90px;
+    height: 90px;
     border:2px solid #fff;
     border-radius: 50%;
     margin-left: 10px;
     margin-top: -5px;
     text-align: center;
 
-
 }
 
+
 .logo {
-    font-size: 8px;
+    font-size: 10px;
     font-family: monospace;
     font-weight: bold;
     margin-bottom: 5px;
     
 }
+}
+
 
 .logo  p span {
     padding: 2px;
@@ -62,12 +73,7 @@ header {
 }
 }
 
-.logo {
-    font-size: 20px;
-    font-family: monospace;
-    font-weight: bold;
-    
-}
+
 .logo  p span {
     padding: 2px;
     margin-bottom: 3px;
@@ -89,10 +95,9 @@ header h2 {
 @media screen and (max-width: 1000px){
     header h2 {
     font-family: Lobster;
-    margin-left: 100px;
-    font-size: 30px;
+    font-size: 28px;
     color: #fff;
-    margin-left: 180px;
+    margin-left: 99px;
     margin-top: -100px;
     
     padding-left: 20px;
@@ -149,6 +154,7 @@ header nav li{
 main {
     background:url("./image/bali.png");
     padding-top: 30px;
+    height: auto;
 }
 
 .container {
@@ -312,16 +318,33 @@ main {
     background: #fff;
     height: 287px;
     margin-top: 20px;
-    background: url("./image/jon.png") no-repeat, #d0c3d8;
+    background: url("./image/bag1.png") no-repeat, #d0c3d8;
+    background-size: 300px 300px;
     border: 14px solid #fff;
     border-radius: 4px;
 }
 
 
 
+
+@media screen and (max-width: 1130px){
+    .block-nic {
+    display: grid;
+    grid-template-columns:100%;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+}
+@media screen and (max-width: 660px){
+    main {
+        height: auto;
+    }
+}
+
 .nic-text {
     text-align: right;
     margin-right: 10px;
+
 }
 
 .nic-text p {
@@ -332,9 +355,9 @@ main {
     font-size: 18px;
 }
 
-.nic-lorem p {
+.nic-lorem  {
     text-align: right;
-    font-size: 16px;
+   
 }
 
 
@@ -344,6 +367,73 @@ main {
     margin-left:320px;
     margin-top:0;
 }
+
+
+
+@media screen and (max-width: 660px){
+     .block-nic {
+    height: auto;
+    margin-top: -106px;
+    margin-bottom: 156px;
+    margin-left: -116px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns:100%;
+
+}
+
+.nicolas {
+    width: 560px;
+    background: #fff;
+    height: 287px;
+    margin-top: 300px;
+
+    background: url("./image/bag1.png") no-repeat, #d0c3d8;
+     background-size: 300px 300px;
+    border: 14px solid #fff;
+    border-radius: 4px;
+    transform: rotate(90deg);
+}
+
+.nic-text {
+    text-align:center;
+    padding-bottom: -10px;
+    margin-bottom: 10px;
+    padding-top: 220px;
+    margin-right: -40px;
+    transform: rotate(-90deg);
+}
+
+  .nic-lorem   {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 135px;
+}
+
+.nic-text p {
+    font-size: 15px;
+}
+
+.nic-text h4 {
+    font-size: 12px;
+    padding-left: 97px;
+}
+
+.line-lv {
+    width: 105px;
+    border-top: 1px solid #db5941;
+    margin-left:286px;
+    margin-top:0;
+}
+
+
+
+}
+
+
 
 
 .studio {

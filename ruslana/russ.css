@@ -411,7 +411,7 @@ main {
     font-weight: bold;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 135px;
+    padding-left: 156px;
 }
 
 .nic-text p {
@@ -428,6 +428,11 @@ main {
     border-top: 1px solid #db5941;
     margin-left:286px;
     margin-top:0;
+}
+
+.time {
+    text-align: center;
+    padding-left: 100px;
 }
 
 

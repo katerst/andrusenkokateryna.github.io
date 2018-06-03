@@ -331,9 +331,9 @@ main {
 @media screen and (max-width: 1130px){
     .block-nic {
     display: grid;
-    grid-template-columns:100%;
-    margin-left: 70px;
-    margin-right: 70px;
+    grid-template-columns:auto;
+    margin-left: 40%;
+   margin-right: 40%;
 }
 }
 @media screen and (max-width: 660px){

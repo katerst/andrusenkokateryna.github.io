@@ -693,4 +693,34 @@ color: red;
 }
 }
 
+.nicolas button {
+    background:rgba(23,172,181, 0.8);
+    padding: 7px;
+    border: 1px solid rgba(23,172,181, 0.8);
+    color: rgba(10,11,11,0.8);
+}
+
+@media screen and (max-width: 660px){
+    .nicolas button {
+    background:rgba(23,172,181, 0.8);
+    padding: 7px;
+    border: 1px solid rgba(23,172,181, 0.8);
+    color: rgba(10,11,11,0.8);
+    margin-left: 174px;
+}
+}
+
+
+.button-sl {
+    margin-left: 655px;
+
+}
+
+.modaln {
+    z-index: 8888;
+}
+
+.modal-sl {
+    margin-left: 500px;
+}
 

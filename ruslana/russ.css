@@ -376,8 +376,8 @@ main {
     height: auto;
     margin-top: -106px;
     margin-bottom: 156px;
-    margin-left: -97px;
-    margin-right: 10px;
+    margin-left: -99px;
+    /* margin-right: 10px; */
     display: grid;
     grid-template-columns:auto;
 
@@ -420,19 +420,21 @@ main {
 
 .nic-text h4 {
     font-size: 12px;
-    padding-left: 97px;
+    padding-left: 159px;
+
 }
 
 .line-lv {
     width: 105px;
     border-top: 1px solid #db5941;
-    margin-left:286px;
+    margin-left:308px;
     margin-top:0;
 }
 
 .time {
     text-align: center;
-    padding-left: 100px;
+    padding-left: 149px;
+    margin-bottom: -9px;
 }
 
 
@@ -462,6 +464,18 @@ main {
     background:blue;
     margin: 50px;
     margin-left: 50px;
+ }
+
+
+ @media screen and (max-width: 660px){
+    .buttoncl {
+    border: none;
+    padding: 10px 30px;
+    color: #fff;
+    background:blue;
+    margin: 50px;
+    margin-left: 116px;
+ }
  }
 
  .closeBtnn {

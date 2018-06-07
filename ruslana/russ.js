@@ -1,37 +1,20 @@
-var btn=document.querySelector('.buttoncl'),
-	modal = document.querySelector('.modaln'),
-	closeBtn= document.querySelector('.closeBtnn');
+$('.slider-for').slick({
+   slidesToShow: 1,
+   slidesToScroll: 1,
+   arrows: false,
+   fade: true,
+   asNavFor: '.slider-nav'
+ });
+ $('.slider-nav').slick({
+   slidesToShow: 3,
+   slidesToScroll: 1,
+   asNavFor: '.slider-for',
+   dots: true,
+   focusOnSelect: true
+ });
 
-	btn.addEventListener('click', function(){
-		modal.style.display='flex';
-	})
-
-	closeBtn.addEventListener('click', function(){
-		modal.style.display='none';
-	})
-
-	window.addEventListener('click', function(e){
-		if(e.target==modal){
-			modal.style.display='none';
-		}
-	});
-$(document).ready(function() {
-
-	//E-mail Ajax Send
-	$("form").submit(function() { //Change
-		var th = $(this);
-		$.ajax({
-			type: "POST",
-			url: "mail.php", //Change
-			data: th.serialize()
-		}).done(function() {
-			alert("Заявка отправлена, мы свяжемся с Вами в течении 5 минут");
-			setTimeout(function() {
-				// Done Functions
-				th.trigger("reset");
-			}, 1000);
-		});
-		return false;
-	});
-
-});
+ $('a[data-slide]').click(function(e) {
+   e.preventDefault();
+   var slideno = $(this).data('slide');
+   $('.slider-nav').slick('slickGoTo', slideno - 1);
+ });

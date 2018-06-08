@@ -39,8 +39,19 @@ section[class*=section-] {
   padding-bottom: 65px;
 
 }
-.section-carousel {
+.section-carousel  img {
+  width: 330px;
+  height: 245px;
+ 
+}
 
+
+@media (min-width: 930px) {
+  .section-carousel  img {
+  width: 900px;
+  height: 500px;
+ 
+}
 }
 
 .section-services {

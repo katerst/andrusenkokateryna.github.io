@@ -115,6 +115,34 @@ li{
   overflow:hidden;
   position: relative;
 }
+
+@media(min-width: 1000px){
+  #contenedor{
+  margin-top: 20px;
+  width:50%;
+  height:100%;
+  margin:0 auto 0 auto;
+  overflow:hidden;
+  position: relative;
+}
+#slider{
+  width: 1400px; /* *600px la dimension de la imagen */
+  height: 500px;
+  position: relative;
+  transition: all 500ms ease-in-out;
+  -webkit-filter: grayscale(100%); /* funciona correctamente en Chrome solo webKit */
+  -webkit-backface-visibility: hidden;
+
+}
+
+.mini img{
+width: 100px;
+height: 100px;
+margin-top: 20px;
+}
+}
+
+
 #slider{
   width: 1400px; /* *600px la dimension de la imagen */
   height: 500px;

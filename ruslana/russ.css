@@ -126,7 +126,7 @@ li{
   height: 500px;
   position: relative;
   transition: all 500ms ease-in-out;
-  -webkit-filter: grayscale(100%); /* funciona correctamente en Chrome solo webKit */
+  -webkit-filter: grayscale(0%); /* funciona correctamente en Chrome solo webKit */
   -webkit-backface-visibility: hidden;
 
 }
@@ -144,7 +144,7 @@ margin-top: 20px;
   height: 500px;
   position: relative;
   transition: all 500ms ease-in-out;
-  -webkit-filter: grayscale(100%); /* funciona correctamente en Chrome solo webKit */
+  -webkit-filter: grayscale(0%); /* funciona correctamente en Chrome solo webKit */
   -webkit-backface-visibility: hidden;
 }
 #slider div{
@@ -174,7 +174,7 @@ margin-top: 20px;
 
 
 .mini{
-  -webkit-filter: grayscale(100%);
+  -webkit-filter: grayscale(0%);
   cursor: ew-resize;
   float: left;
   margin-top: 500px;
@@ -215,7 +215,7 @@ margin-top: 20px;
   height: 200px;
   position: relative;
   transition: all 500ms ease-in-out;
-  -webkit-filter: grayscale(100%); /* funciona correctamente en Chrome solo webKit */
+  -webkit-filter: grayscale(0%); /* funciona correctamente en Chrome solo webKit */
   -webkit-backface-visibility: hidden;
 }
 

@@ -79,6 +79,11 @@ section[class*=section-] {
   display: block;
 }
 
+.f-word {
+  font-family: Pacifico;
+  font-size: 30px;
+}
+
 
 .catalog  {
   margin-bottom: 2.5rem;

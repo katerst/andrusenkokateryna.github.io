@@ -274,6 +274,8 @@ footer h4 {
 }
 
 
+
+
 @media(max-width: 420px){
 	.header-container{
 		width: 100%;
@@ -695,5 +697,5 @@ footer h4 {
 	grid-template-columns: auto;
 }
 
->>>>>>> 2e2187c3a06edfd04fd1b8274618bd00adb30e23
+
 }

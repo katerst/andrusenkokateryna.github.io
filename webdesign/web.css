@@ -260,6 +260,7 @@ footer h4 {
 
 .tweets img {
 	float: left;
+	margin-right: 10px;
 }
 
 .tweets  span {

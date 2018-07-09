@@ -280,6 +280,39 @@ footer h4 {
 	padding-right: 10px;
 }
 
+ .search {
+	border: 4px solid #ffea00;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	color: #fff;
+	outline: none;
+	background: #414146;
+	width: 230px;
+}
+
+.footer-bottom {
+	height: 68px;
+	background: #000;
+	font-size: 16px;
+
+}
+
+.footer-bottom a {
+	color: #ddd;
+
+}
+
+.footer-bottom  ul {
+	margin-left: 25%;
+	padding-top: 30px;
+}
+
+.footer-bottom li {
+	margin-left: 70px;
+}
+
+
 
 
 

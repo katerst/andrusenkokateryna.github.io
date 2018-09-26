@@ -8,24 +8,12 @@ $(function() {
 		$('.post').not(get_current).hide(500);
 		get_current.show(500);
 	});
-
-
-	$('#showall').click(function() {
-		$('.post').show(500);
+});
+$(document).ready(function() {
+		$('.clients-carousel').slick({
+			arrows:true,
+			autoplay:false,
+		});
 	});
 
-
-$(document).ready(function(){
-  $(".owl-carousel").owlCarousel({
-  	items:8
-  });
-});
-
-if($(window).width()<420){
-	 $(".owl-carousel").owlCarousel({
-  	items:2
-  });
-
-};
-});
 });

@@ -1,21 +1,24 @@
-*, *::after, *::before {
+/* *, *::after, *::before {
 	box-sizing: border-box;
 	font-family: sans-serif;
+} */
+
+
+body {
+	background: #383b41;
 }
 
 
-
-
-
-.collapse ul {
-	z-index: 100;
+/* .collapse ul li{
+	z-index: 100000;
 	
 	
-}
+} */
 
  .navbar-nav li{
 	font-size: 14px;
 	padding-right: 10px;
+	z-index: 100;
 
 }
 
@@ -23,60 +26,59 @@
 
  .ml-auto :hover{
 	color: #e74c3c!important;
-	
-	
 
-} 
-
-.btn-nav {
-	background: transparent;
-	border-top: none;
-	border-left: none;
-	border-right: none;
-	padding-bottom:  20px;
-	border-bottom: none;
 
 }
 
-.btn-nav:hover {
-	background: transparent;
-	border-top: none;
-	border-left: none;
-	border-right: none;
-	padding-bottom:  20px;
-	border-bottom: 2px solid #e74c3c;
-	color: #e74c3c;
+.ml-auto :hover hr{
+	background: #e74c3c;
+	
+}
 
+
+
+hr {
+	height:1px;
+	background: transparent;
+	
 }
 
 span.aboutus {
 	word-spacing: normal;
 }
 
-.slide {
-	margin-top: -78px;
+.carousel {
+	margin-top: -88px;
 	z-index: -100;
+	
 }
 
+.ourClients{
+	font-size: 24px;
+}
 
+.carousel-indicators {
+	display: none;
+}
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
 	display: none;
 }
 
-.text-on-slider{
+.carousel-caption{
 	margin-top: -512px;
 	margin-bottom: 190px;
 	color: #fff;
 	text-align: center;
+	
 }
 
-.text-on-slider p{
-	font-size: 24px;
+.carousel-caption p{
+	font-size: 14px;
 
 }
 
-.text-on-slider h1{
+.welcome{
 	font-size: 72px;
 }
 
@@ -93,21 +95,21 @@ span.aboutus {
 	grid-template-columns: auto auto auto;
 }
 
-p.lorem-slide {
+/* p.leorem-slid {
 	font-size: 14px;
 	width: 600px;
 	margin-left: 29%;
 	margin-right: 50%;
 	margin-top: 50px;
 	color: #a59f9a;
-}
+} */
 
-.buttons {
+ .buttons {
 	margin-top: 50px;
 
-}
+} 
 
-.left-button, .right-button {
+/* .left-button, .right-button {
 	background:transparent;
 	color: #fff;
 	font-size: 14px;
@@ -115,15 +117,23 @@ p.lorem-slide {
 	border:2px solid #fff;
 	border-radius: 3px;
 
+} */
+
+
+
+.btn-outline-1 {
+	margin-right: 30px;
+	background:transparent;
+	color: #fff;
+	font-size: 14px;
+	padding: 22px 45px 22px 45px;
+	border:2px solid #fff;
+	border-radius: 3px;
 }
 
-.left-button:hover, .right-button:hover {
+.btn-outline-1 :hover {
 	background: #e74c3c;
 	border:2px solid #e74c3c;
-}
-
-.left-button {
-	margin-right: 30px;
 }
 
 .flex-wrap {

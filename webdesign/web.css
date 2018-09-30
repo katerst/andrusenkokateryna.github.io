@@ -312,8 +312,14 @@ footer h4 {
 	margin-left: 70px;
 }
 
+/* .slick-prev::before {
+    content:url("./img/Left.png"); 
+}
 
-
+.slick-next:before {
+    content:url("./img/Right.png"); 
+}
+ */
 
 
 @media(max-width: 420px){
@@ -342,7 +348,7 @@ footer h4 {
 		cursor: pointer;
 		color: #000;
 		margin-top: 20px;
-		background:url(./img/menu.png) no-repeat;
+		
 	}
 
 	.toggle-button:after{

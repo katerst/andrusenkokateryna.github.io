@@ -312,14 +312,7 @@ footer h4 {
 	margin-left: 70px;
 }
 
-/* .slick-prev::before {
-    content:url("./img/Left.png"); 
-}
 
-.slick-next:before {
-    content:url("./img/Right.png"); 
-}
- */
 
 
 @media(max-width: 420px){
@@ -371,43 +364,6 @@ footer h4 {
 		top: 30px;
 		right: 115px;
 	}
-	/* .top-slide {
-	        padding-top: 40px;
-	    padding-bottom: 40px;
-	    }
-	
-	.top-slide h2 {
-	font-size:32px ;
-	}
-	
-	.top-slide p {
-	
-	    font-size: 16px;
-	}
-	
-	.specialize-container p {
-	    font-size: 16px;
-	}
-	
-	.specialize-card {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	}
-	
-	.button-card {
-		width: 250px;
-		margin: 0 auto;
-	}
-	
-	.posts {
-	width: 90%;
-	display: grid;
-	margin: 0 auto;
-	grid-template-columns: auto;
-	}
-	 */
-=======
 body {
 	font-family:"Poppins", sans-serif;
 }

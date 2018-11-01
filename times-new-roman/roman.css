@@ -1,0 +1,25 @@
+.logo {
+	font-family: Lobster;
+	font-size: 25px;
+}
+
+.dropdown-item:hover {
+	background:transparent;
+	font-style: italic;
+}
+
+.dropdown-item:active:visited:hover {
+	color: magenta;
+}
+
+.card-text-h {
+	color: cyan;
+}
+
+.roman {
+	height: 340px;
+}
+
+h1 {
+	margin-top: 40px;
+}

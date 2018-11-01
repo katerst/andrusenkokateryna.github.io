@@ -1,0 +1,73 @@
+body {
+	
+	font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+.logo {
+	font-family: Lobster;
+	font-size: 25px;
+}
+
+nav  {
+	font-family: sans-serif;
+}
+
+.dropdown-item:hover {
+	background:transparent;
+	font-style: italic;
+}
+
+.dropdown-item:active {
+	color: magenta;
+}
+
+h2,h3, h4, h5 {
+	text-align: center;
+	font-family: sans-serif;
+}
+
+p{
+	font-size: 20px;
+	word-wrap:break-word;
+}
+
+.container {
+	padding: 0 20px 70px;
+	word-wrap:break-word;
+	text-align: left;
+	
+	
+}
+
+h4 {
+	font-size: 25px;
+	color: #421341;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	color: #ce30cc;
+	margin-top: 40px;
+}
+
+h5 {
+	font-size: 20px;
+	color: #9e5a9d;
+}
+
+hr {
+	background: #e49de3;
+}
+
+
+.footer {
+	height: 70px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.footer p {
+	padding-top: 10px;
+}

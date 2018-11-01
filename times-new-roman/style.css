@@ -1,0 +1,34 @@
+.dropdown-item:hover {
+	background:transparent;
+	font-style: italic;
+}
+
+.dropdown-item:active {
+	color: magenta;
+}
+
+body {
+	background: #6c7070 url(./img/upfeathers.png);
+}
+
+.logo {
+	font-family: Lobster;
+	font-size: 25px;
+}
+
+.books {
+	
+	margin-right: -4%;
+}
+
+.p-say {
+	font-family: 'Dancing Script', cursive;
+}
+
+.footer {
+	height: 70px;
+}
+
+.footer p {
+	padding-top: 10px;
+}

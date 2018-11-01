@@ -77,5 +77,9 @@ footer>p img{
 	padding-top: 10px;
 }
 
-
+footer >p {
+	font-weight: normal;
+	line-height: 0;
+	font-size: 18px;
+}
 

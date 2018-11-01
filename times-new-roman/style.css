@@ -17,7 +17,7 @@ body {
 }
 
 .books {
-	
+	margin-bottom: 50px;
 	margin-right: -4%;
 }
 
@@ -25,10 +25,13 @@ body {
 	font-family: 'Dancing Script', cursive;
 }
 
-.footer {
-	height: 70px;
+footer {
+	margin:20px 0 0;
+	height: 90px;
+	width: 100%;
+	
 }
 
-.footer p {
+footer>p img{
 	padding-top: 10px;
 }

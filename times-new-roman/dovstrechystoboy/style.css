@@ -29,12 +29,14 @@ p{
 	font-size: 20px;
 	word-wrap:break-word;
 
+
 }
 
 .container {
 	padding: 0 20px 70px;
 	word-wrap:break-word;
 	text-align: left;
+	margin-bottom: 20px;
 	
 	
 }
@@ -61,30 +63,29 @@ hr {
 }
 
 
-.footer {
-	height: 80px;
+footer {
+	margin:30px 0 0;
+	height: 90px;
+	width: 100%;
 	position: fixed;
 	bottom: 0;
 	left: 0;
-	width: 100%;
-	word-wrap:break-word;
+	font-family: sans-serif;
 }
 
-.footer p {
+footer>p img{
 	padding-top: 10px;
-
 }
+
+
 
 @media(max-width: 420px) {
-	.footer p {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	footer  {
 	font-size: 12px;
+	
 }
-
-p{
+p {
 	font-size: 30px;
-	text-align: justify;
-
 }
+
 }

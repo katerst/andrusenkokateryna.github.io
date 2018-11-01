@@ -72,16 +72,18 @@ hr {
 
 .footer p {
 	padding-top: 10px;
+
 }
 
 @media(max-width: 420px) {
 	.footer p {
 	padding-top: 10px;
+	padding-bottom: 10px;
 	font-size: 12px;
 }
 
 p{
-	font-size: 25px;
+	font-size: 30px;
 	text-align: justify;
 
 }

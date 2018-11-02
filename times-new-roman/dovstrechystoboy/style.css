@@ -41,6 +41,15 @@ p{
 	
 }
 
+@media(max-width: 420px){
+	.container {
+		font-size: 25px;
+	}
+	nav {
+		font-size: 30px;
+	}
+}
+
 h4 {
 	font-size: 25px;
 	color: #421341;

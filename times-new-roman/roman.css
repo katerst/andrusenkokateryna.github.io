@@ -32,17 +32,17 @@ footer {
 	margin:20px 0 0;
 	height: 90px;
 	width: 100%;
-	padding-bottom: 40px;
+	padding-bottom: 140px;
 	
 }
 
 footer>p img{
 	padding-top: 10px;
-	clear: right;
+	
 }
 
 footer >p {
 	font-weight: normal;
 	line-height: 1;
-	font-size: 15px;
+	font-size: 18px;
 }

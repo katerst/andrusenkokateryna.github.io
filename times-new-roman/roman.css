@@ -38,10 +38,11 @@ footer {
 
 footer>p img{
 	padding-top: 10px;
+	clear: right;
 }
 
 footer >p {
 	font-weight: normal;
 	line-height: 1;
-	font-size: 18px;
+	font-size: 15px;
 }

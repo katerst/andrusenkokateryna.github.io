@@ -42,11 +42,11 @@ p{
 }
 
 @media(max-width: 420px){
-	.container {
-		font-size: 25px;
-	}
-	nav {
+	.container p {
 		font-size: 30px;
+	}
+	nav a{
+		font-size: 40px;
 	}
 }
 

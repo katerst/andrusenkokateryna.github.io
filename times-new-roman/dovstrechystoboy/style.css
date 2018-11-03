@@ -78,6 +78,10 @@ hr {
 	opacity: .3;
 }
 
+#tobottom {
+	font-family: 'Great Vibes', cursive;
+}
+
 footer {
 	margin:30px 0 0;
 	height: 90px;

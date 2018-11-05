@@ -22,7 +22,6 @@
 
 .roman {
 	height: 340px;
-	
 }
 
 h1 {
@@ -30,20 +29,19 @@ h1 {
 }
 
 footer {
-	margin:20px 0 0;
-	height: 90px;
+	margin-top: 20px;
+	margin-left: 0;
+	padding-bottom: 10px;
 	width: 100%;
-	padding-bottom: 140px;
 	
 }
 
 footer>p img{
 	padding-top: 10px;
-	
 }
 
 footer >p {
 	font-weight: normal;
-	line-height: 1;
 	font-size: 18px;
 }
+

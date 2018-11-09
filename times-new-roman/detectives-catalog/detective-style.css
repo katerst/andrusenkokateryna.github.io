@@ -80,6 +80,12 @@ hr {
 	
 }
 
+h6 {
+	font-size: 18px;
+	color: #e49de3;
+	text-transform: uppercase;
+}
+
 #tobottom {
 	font-family: 'Great Vibes', cursive;
 	color: #ce30cc;

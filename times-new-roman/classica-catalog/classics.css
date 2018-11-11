@@ -1,0 +1,47 @@
+.logo {
+	font-family: Lobster;
+	font-size: 25px;
+}
+
+.dropdown-item:hover {
+	background:transparent;
+	font-style: italic;
+}
+
+.dropdown-item:active:visited:hover {
+	color: magenta;
+}
+
+.card-text-h {
+	color: cyan;
+}
+
+.books {
+	margin-left: 20px;
+}
+
+.roman {
+	height: 340px;
+}
+
+h1 {
+	margin-top: 40px;
+}
+
+footer {
+	margin-top: 20px;
+	margin-left: 0;
+	padding-bottom: 10px;
+	width: 100%;
+	
+}
+
+footer>p img{
+	padding-top: 10px;
+}
+
+footer >p {
+	font-weight: normal;
+	font-size: 18px;
+}
+

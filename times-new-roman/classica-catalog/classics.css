@@ -24,6 +24,10 @@
 	height: 340px;
 }
 
+.war {
+	border: 1px solid red;
+}
+
 h1 {
 	margin-top: 40px;
 }

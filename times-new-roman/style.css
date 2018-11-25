@@ -11,18 +11,6 @@ body {
 	background: #6c7070 url(./img/upfeathers.png);
 }
 
-summary::-webkit-details-marker {
-	color: red;	
-}
-
-summary:focus {
-	display: none;
-}
-
-details {
-	margin-left: 20px;
-}
-
 .logo {
 	font-family: Lobster;
 	font-size: 25px;

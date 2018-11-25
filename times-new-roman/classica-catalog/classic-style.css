@@ -89,14 +89,14 @@ h6 {
 #tobottom {
 	font-family: 'Great Vibes', cursive;
 	color: #ce30cc;
-
+	 margin-bottom: -50px;
 
 }
 
 
 footer {
 	margin:30px 0 0;
-	height: 90px;
+	height: 102px;
 	width: 100%;
 	/* position: fixed;
 	bottom: 0;

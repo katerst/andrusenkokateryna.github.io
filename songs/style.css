@@ -1,3 +1,4 @@
+
 .container {
 	background: url(img/backgr.jpg);
 	background-size: cover;
@@ -12,8 +13,10 @@
 }
 
 .logo-txt {
-	font-family: 'Cookie', cursive;
+	font-family: 'Pacifico', cursive;
 	float: right;
+	font-size: 22px;
+
 }
 
 .list-group img {

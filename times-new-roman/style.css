@@ -1,6 +1,6 @@
  *, *::after, *::before {
 	box-sizing: border-box;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 } 
 
 .dropdown-item:hover {
@@ -23,10 +23,18 @@ body {
 	font-size: 25px;
 }
 
+
 .books {
 	margin-bottom: 50px;
+
 	
 }
+
+.about {
+	margin-left: 40px;
+}
+
+
 
 .p-say {
 	font-family: 'Dancing Script', cursive;

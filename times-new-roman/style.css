@@ -27,8 +27,16 @@ body {
 
 .books {
 	margin-bottom: 50px;
-
+	padding-left: 4%;
 	
+}
+
+
+@media (max-width: 390px){
+	.books {
+		padding-left: 10%;
+	}
+
 }
 
 .about {
